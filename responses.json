@@ -13,7 +13,9 @@
             "internet_access":false,
             "content_type":"text",
             "parts":
-            [{"content":"hi","role":"user"}]
+                [
+                    {"content":"hi","role":"user"}
+                ]
             }
         }
     }
@@ -28,7 +30,10 @@
         {"id":"7267617884345839115",
         "content":
             {"conversation":
-                [{"role":"user","content":"hi"},{"role":"assistant","content":"Hello! How can I assist you today?"}],
+                [
+                    {"role":"user","content":"hi"},
+                    {"role":"assistant","content":"Hello! How can I assist you today?"}
+                ],
             "internet_access":false,
             "content_type":"text",
             "parts":
