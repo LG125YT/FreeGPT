@@ -1,0 +1,38 @@
+//These are here for your dissection, they are example messages that you send to the free GPT website when making a POST request.
+
+//initiation message
+{"api_key":"",
+    "conversation_id":"3130d075-9664-33ee-adef-189fa74cfc9",
+    "action":"_ask",
+    "model":"gpt-4-0314",
+    "jailbreak":"default",
+    "meta":
+        {"id":"7267617785132685338",
+        "content":
+            {"conversation":[],
+            "internet_access":false,
+            "content_type":"text",
+            "parts":
+            [{"content":"hi","role":"user"}]
+            }
+        }
+    }
+
+//continuation
+{"api_key":"",
+    "conversation_id":"3130d075-9664-33ee-adef-189fa74cfc9",
+    "action":"_ask",
+    "model":"gpt-4-0314",
+    "jailbreak":"default",
+    "meta":
+        {"id":"7267617884345839115",
+        "content":
+            {"conversation":
+                [{"role":"user","content":"hi"},{"role":"assistant","content":"Hello! How can I assist you today?"}],
+            "internet_access":false,
+            "content_type":"text",
+            "parts":
+                [{"content":"idk","role":"user"}]
+            }
+        }
+    }
